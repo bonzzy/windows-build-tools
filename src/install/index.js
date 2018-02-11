@@ -50,6 +50,7 @@ function stopSpinner() {
 function launchSpinner() {
   utils.log('Launched installers, now waiting for them to finish.')
   utils.log('This will likely take some time - please be patient!')
+  utils.log('Sorry for the inconvenience!')
 
   spinner = new Spinner(`Waiting for installers... %s`)
   spinner.setSpinnerDelay(180)
